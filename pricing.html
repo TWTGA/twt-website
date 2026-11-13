@@ -17,12 +17,17 @@
       <div class="brand-name">Think With Technology</div>
     </a>
     <nav class="nav-links">
-      <a href="index.html#services">Services</a>
-      <a href="index.html#how">How it works</a>
-      <a href="pricing.html">Pricing</a>
-      <a href="index.html#about">About</a>
-      <a href="privacy.html">Privacy</a>
+      <div class="menu" id="site-menu">
+        <a href="index.html#services">Services</a>
+        <a href="index.html#how">How it works</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="index.html#about">About</a>
+        <a href="privacy.html">Privacy</a>
+      </div>
       <a class="btn btn-primary btn-sm" href="https://calendly.com/ghassanziyad/30min" target="_blank" rel="noopener">Book a free chat</a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-menu">
+        <span></span><span></span><span></span>
+      </button>
     </nav>
   </div>
 </header>
@@ -119,5 +124,6 @@
 <script>
   document.getElementById('yr').textContent = new Date().getFullYear();
 </script>
+<script src="nav.js"></script>
 </body>
 </html>
